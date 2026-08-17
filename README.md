@@ -48,22 +48,13 @@ Summary statistics and aggregations were performed using `describe()`, `groupBy(
 
 ### Main Results
 
-| Category | Revenue | Units Sold |
-|---|---:|---:|
-| Electronics | $6,179.47 | 10 |
-| Clothing | $800.00 | 9 |
-| Food | $739.50 | 28 |
+<img width="660" height="215" alt="image" src="https://github.com/user-attachments/assets/b3f70c28-53ee-456f-9df4-98d70065eafc" />
 
 Electronics generated the highest revenue, while Food had the highest number of units sold.
 
 ### Revenue by Region
 
-| Region | Revenue |
-|---|---:|
-| North | $3,427.47 |
-| East | $1,953.50 |
-| West | $1,267.00 |
-| South | $1,071.00 |
+<img width="612" height="230" alt="image" src="https://github.com/user-attachments/assets/404fc0d2-49b2-45f3-8cbe-9619b58466b1" />
 
 North generated the highest total revenue.
 
@@ -80,11 +71,7 @@ Diagnostic analysis was performed using:
 
 ### Monthly Revenue
 
-| Month | Revenue |
-|---|---:|
-| January | $2,983.98 |
-| February | $1,610.00 |
-| March | $3,124.99 |
+<img width="551" height="202" alt="image" src="https://github.com/user-attachments/assets/4b2e420a-da62-4b9f-9657-a35dc867e614" />
 
 March generated the highest monthly revenue.
 
@@ -97,10 +84,20 @@ Credit-card transactions also had the highest average and total revenue.
 Spark window functions were used for:
 
 - Ranking transactions inside each region
+<img width="601" height="321" alt="image" src="https://github.com/user-attachments/assets/e5005de9-c4ea-458c-95b7-98741434ebe4" />
+
 - Finding the Top 2 transactions per region
+<img width="612" height="228" alt="image" src="https://github.com/user-attachments/assets/6951590a-c395-46f6-8f9f-83d6a2892ddf" />
+
 - Calculating running revenue totals
+<img width="617" height="317" alt="image" src="https://github.com/user-attachments/assets/c61a303a-44a1-44ff-af29-4e7c5cbb03c0" />
+
 - Creating revenue quartiles using `ntile()`
+<img width="542" height="423" alt="image" src="https://github.com/user-attachments/assets/a0aef374-c8e7-40e3-a711-5836690ed592" />
+
 - Finding the previous customer purchase using `lag()`
+<img width="608" height="313" alt="image" src="https://github.com/user-attachments/assets/a141895b-dc04-4f3d-802f-fbbdb9e0f3e1" />
+
 
 The `partitionBy()` function allowed calculations to restart independently for each region or customer.
 
@@ -117,21 +114,20 @@ Additional transaction features were created:
 - Weekend flag
 - High-value transaction flag
 - High-quantity flag
+<img width="1165" height="313" alt="image" src="https://github.com/user-attachments/assets/85b78608-11b5-4c7b-9c23-8c2e516060a6" />
 
 Customer RFM metrics were then calculated:
 
 - **Recency:** days since latest transaction
 - **Frequency:** number of transactions
 - **Monetary:** total customer spending
+<img width="397" height="207" alt="image" src="https://github.com/user-attachments/assets/01cb3e86-6ac7-4ccd-be3c-74e4d63112ea" />
 
 R, F, and M values were scored from 1 to 4.
 
 Alice received the highest score:
 
-```text
-R4F4M4
-RFM Sum = 12
-```
+<img width="666" height="167" alt="image" src="https://github.com/user-attachments/assets/0bd76952-3bae-485d-8fa5-b7f49a777047" />
 
 ---
 
@@ -141,12 +137,7 @@ Customers were grouped into business-oriented segments using their RFM scores.
 
 ### Segment Summary
 
-| Segment | Customers |
-|---|---:|
-| Hibernating / Lost | 4 |
-| Loyal | 3 |
-| Champions | 1 |
-| New / Promising | 1 |
+<img width="377" height="218" alt="image" src="https://github.com/user-attachments/assets/5a394f11-d40a-4019-8d52-a7c44fae09ef" />
 
 Alice was classified as a **Champion** because of her high recency, frequency, and monetary scores.
 
@@ -164,10 +155,7 @@ The threshold used was:
 
 Two global anomalies were detected:
 
-| Transaction | Customer | Revenue | Z-score |
-|---|---|---:|---:|
-| T001 | Alice | $1,799.98 | 2.84 |
-| T017 | Grace | $1,560.00 | 2.36 |
+<img width="526" height="177" alt="image" src="https://github.com/user-attachments/assets/f65e4269-5a7b-43bf-913d-104917f6687a" />
 
 When Z-scores were calculated separately for each product category, no transactions exceeded the anomaly threshold.
 
