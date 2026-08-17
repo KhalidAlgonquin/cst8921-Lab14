@@ -17,15 +17,15 @@ using the navigation links at the bottom of each page.
 
 | Part | File | Topic | Analytics type |
 |------|------|-------|----------------|
-| — | [00 · Setup](00-setup.md) | Environment, dataset, schema, derived columns | Foundation |
-| 1 | [01 · Descriptive](01-descriptive-analytics.md) | Summary stats, revenue by category/region | Descriptive |
-| 2 | [02 · Diagnostic](02-diagnostic-analytics.md) | Drill-down, pivot, monthly trends | Diagnostic |
-| 3 | [03 · Window Functions](03-window-functions.md) | Rankings, running totals, `partitionBy` | Advanced |
-| 4 | [04 · Feature Engineering](04-predictive-feature-engineering.md) | RFM scoring, ML feature engineering | Predictive |
-| 5 | [05 · Segmentation](05-customer-segmentation.md) | Customer segments (Champions → At Risk) | Use case |
-| 6 | [06 · Anomaly Detection](06-anomaly-detection.md) | Outliers via z-scores | Use case |
-| 7 | [07 · Data Engineering](07-data-engineering-parquet.md) | Parquet output for downstream use | Data engineering |
-| 8 | [08 · Hands-On Exercises](08-hands-on-exercises.md) | Extend the lab yourself | Practice |
+| — | [00 · Setup](Lab-instructions/00-setup.md) | Environment, dataset, schema, derived columns | Foundation |
+| 1 | [01 · Descriptive](Lab-instructions/01-descriptive-analytics.md) | Summary stats, revenue by category/region | Descriptive |
+| 2 | [02 · Diagnostic](Lab-instructions/02-diagnostic-analytics.md) | Drill-down, pivot, monthly trends | Diagnostic |
+| 3 | [03 · Window Functions](Lab-instructions/03-window-functions.md) | Rankings, running totals, `partitionBy` | Advanced |
+| 4 | [04 · Feature Engineering](Lab-instructions/04-predictive-feature-engineering.md) | RFM scoring, ML feature engineering | Predictive |
+| 5 | [05 · Segmentation](Lab-instructions/05-customer-segmentation.md) | Customer segments (Champions → At Risk) | Use case |
+| 6 | [06 · Anomaly Detection](Lab-instructions/06-anomaly-detection.md) | Outliers via z-scores | Use case |
+| 7 | [07 · Data Engineering](Lab-instructions/07-data-engineering-parquet.md) | Parquet output for downstream use | Data engineering |
+| 8 | [08 · Hands-On Exercises](Lab-instructions/08-hands-on-exercises.md) | Extend the lab yourself | Practice |
 
 ---
 
