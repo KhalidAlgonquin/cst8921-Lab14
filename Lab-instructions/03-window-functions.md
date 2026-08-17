@@ -59,4 +59,4 @@ quartiles, and reach back to a previous row — all with window functions.
 
 ---
 
-[← 02 · Diagnostic]Lab-instructions/(02-diagnostic-analytics.md) · [Index](Lab-instructions/index.md) · [Next: 04 · Feature Engineering →](Lab-instructions/04-predictive-feature-engineering.md)
+[← 02 · Diagnostic](02-diagnostic-analytics.md) · [Index](index.md) · [Next: 04 · Feature Engineering →](04-predictive-feature-engineering.md)

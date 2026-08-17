@@ -44,4 +44,4 @@ to know you got it right — no solution code, on purpose.
 
 ---
 
-[← 07 · Data Engineering](Lab-instructions/07-data-engineering-parquet.md) · [Index](Lab-instructions/index.md)
+[← 07 · Data Engineering](07-data-engineering-parquet.md) · [Index](index.md)

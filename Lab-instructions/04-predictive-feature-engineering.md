@@ -69,4 +69,4 @@ customer-level **Recency / Frequency / Monetary** features and score each into t
 
 ---
 
-[← 03 · Window Functions](Lab-instructions/03-window-functions.md) · [Index](Lab-instructions/index.md) · [Next: 05 · Segmentation →](Lab-instructions/05-customer-segmentation.md)
+[← 03 · Window Functions](03-window-functions.md) · [Index](index.md) · [Next: 05 · Segmentation →](05-customer-segmentation.md)

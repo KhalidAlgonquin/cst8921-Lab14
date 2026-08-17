@@ -51,4 +51,4 @@ explain *why* a region or category looks the way it does.
 
 ---
 
-[← 01 · Descriptive](Lab-instructions/01-descriptive-analytics.md) · [Index](Lab-instructions/index.md) · [Next: 03 · Window Functions →](Lab-instructions/03-window-functions.md)
+[← 01 · Descriptive](01-descriptive-analytics.md) · [Index](index.md) · [Next: 03 · Window Functions →](03-window-functions.md)

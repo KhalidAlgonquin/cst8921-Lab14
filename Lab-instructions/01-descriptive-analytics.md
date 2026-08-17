@@ -47,4 +47,4 @@ money comes from (which categories, which regions).
 
 ---
 
-[← Setup](00-setup.md) · [Index](Lab-instructions/index.md) · [Next: 02 · Diagnostic →](Lab-instructions/02-diagnostic-analytics.md)
+[← Setup](00-setup.md) · [Index](index.md) · [Next: 02 · Diagnostic →](02-diagnostic-analytics.md)

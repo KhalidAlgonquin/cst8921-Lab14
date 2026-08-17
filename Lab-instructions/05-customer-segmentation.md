@@ -58,4 +58,4 @@ Compute an `fm = (F + M) / 2` helper, then apply top-down:
 
 ---
 
-[← 04 · Feature Engineering](Lab-instructions/04-predictive-feature-engineering.md) · [Index](Lab-instructions/index.md) · [Next: 06 · Anomaly Detection →](Lab-instructions/06-anomaly-detection.md)
+[← 04 · Feature Engineering](04-predictive-feature-engineering.md) · [Index](index.md) · [Next: 06 · Anomaly Detection →](06-anomaly-detection.md)

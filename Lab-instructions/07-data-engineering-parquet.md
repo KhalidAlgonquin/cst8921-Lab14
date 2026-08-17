@@ -52,4 +52,4 @@ round-trip and schema are intact.
 
 ---
 
-[← 06 · Anomaly Detection](Lab-instructions/06-anomaly-detection.md) · [Index](Lab-instructions/index.md) · [Next: 08 · Hands-On Exercises →](Lab-instructions/08-hands-on-exercises.md)
+[← 06 · Anomaly Detection](06-anomaly-detection.md) · [Index](index.md) · [Next: 08 · Hands-On Exercises →](08-hands-on-exercises.md)

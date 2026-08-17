@@ -54,4 +54,4 @@ standard-deviation threshold as anomalies.
 
 ---
 
-[← 05 · Segmentation](Lab-instructions/05-customer-segmentation.md) · [Index](Lab-instructions/index.md) · [Next: 07 · Data Engineering →](Lab-instructions/07-data-engineering-parquet.md)
+[← 05 · Segmentation](05-customer-segmentation.md) · [Index](index.md) · [Next: 07 · Data Engineering →](07-data-engineering-parquet.md)

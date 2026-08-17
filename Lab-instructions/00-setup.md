@@ -99,4 +99,4 @@ The small size is deliberate — you can verify every result by hand.
 
 ---
 
-[Index](Lab-instructions/index.md) · [Next: 01 · Descriptive →](Lab-instructions/01-descriptive-analytics.md)
+[Index](index.md) · [Next: 01 · Descriptive →](01-descriptive-analytics.md)

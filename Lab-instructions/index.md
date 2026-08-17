@@ -56,4 +56,4 @@ Each part page follows the same shape so you always know where you are:
 4. **Expected output** — what your result should look like (shape, not values to copy)
 5. **Checkpoint** — questions to confirm you understood it
 
-➡️ **Begin here:** [00 · Setup](Lab-instructions/00-setup.md)
+➡️ **Begin here:** [00 · Setup](00-setup.md)
